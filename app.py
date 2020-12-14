@@ -4,11 +4,12 @@ from flask_pymongo import PyMongo
 from flask import Flask, render_template, redirect
 
 # Custom
-from scrape_mars import scrape 
+from scripts.scrape_mars import scrape
+from config import db_password
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
-app.config["MONGO_URI"] = "mongodb://localhost:27017/mars_app"
+app.config["MONGO_URI"] = f"mongodb+srv://{db_password}@cluster0.mvmcg.mongodb.net/MissionToMars?retryWrites=true&w=majority"
 mongo = PyMongo(app)
 
 @app.route("/")

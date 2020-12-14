@@ -1,5 +1,6 @@
 # Custom
 notebooks/chromedriver.exe
+config.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
