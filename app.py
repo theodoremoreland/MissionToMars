@@ -57,10 +57,10 @@ def scrape():
         }
 
         MarsDataCollection.update({}, MarsData, upsert=True)
-        flash("Bot successfully retrieved new Mars data.", "success")
+        flash("Bot returned with new Mars discoveries!", "success")
     except Exception as e:
         print(e)
-        flash("Bot failed to retrieve new Mars data. Defaulting to data from last successful scrape.", "danger")
+        flash("Bot failed to return. Defaulting to memories from last successful voyage.", "danger")
     
     return redirect("/")
 
