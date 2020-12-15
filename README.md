@@ -10,7 +10,7 @@ A webpage with dynamic Mars content populated by a web scraping bot. The bot use
 
 ## Technologies Used
 * Python (Flask)
-* HTML/CSS (Bootstrap 3 CDN)
+* HTML/CSS (Bootstrap 4 CDN)
 * Mongodb + pymongo
 * chromedriver
 * Splinter / selenium
