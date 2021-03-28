@@ -26,7 +26,7 @@ Jinja2==2.11.3
 jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
 jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
 jupyter-core @ file:///C:/ci/jupyter_core_1606149073702/work
-lxml==4.6.2
+lxml==4.6.3
 MarkupSafe==1.1.1
 mistune==0.8.4
 nbconvert==5.6.1
