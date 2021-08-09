@@ -47,7 +47,7 @@ pyparsing==2.4.7
 pyrsistent @ file:///C:/ci/pyrsistent_1600141795814/work
 python-dateutil==2.8.1
 pytz==2020.4
-pywin32==227
+pywin32==301
 pywinpty==0.5.7
 pyzmq==20.0.0
 requests==2.25.0
