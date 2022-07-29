@@ -60,7 +60,7 @@ terminado==0.9.1
 testpath==0.4.4
 tornado @ file:///C:/ci/tornado_1606942392901/work
 traitlets @ file:///tmp/build/80754af9/traitlets_1602787416690/work
-urllib3==1.26.4
+urllib3==1.26.5
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
 Werkzeug==1.0.1
