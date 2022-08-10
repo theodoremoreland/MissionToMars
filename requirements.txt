@@ -29,7 +29,7 @@ jupyter-core @ file:///C:/ci/jupyter_core_1606149073702/work
 lxml==4.9.1
 MarkupSafe==1.1.1
 mistune==0.8.4
-nbconvert==5.6.1
+nbconvert==6.3.0
 nbformat @ file:///tmp/build/80754af9/nbformat_1602783287752/work
 notebook @ file:///C:/ci/notebook_1601501643625/work
 numpy==1.22.0
